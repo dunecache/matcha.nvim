@@ -1,0 +1,42 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "name": "Kanso Matcha",
+  "syntax": {
+    "morning-matcha": {
+      "default": "#34382F",
+      "comment": "#77796D",
+      "keyword": "#79658B",
+      "function": "#626D4F",
+      "method": "#55756A",
+      "string": "#8A6654",
+      "number": "#9A6C43",
+      "constant": "#925F50",
+      "type": "#4F7075",
+      "property": "#686A5F",
+      "operator": "#77796D",
+      "punctuation": "#77796D",
+      "tag": "#626D4F",
+      "attribute": "#79658B",
+      "regexp": "#925F50",
+      "escape": "#80642F"
+    },
+    "evening-zen": {
+      "default": "#E8E5D9",
+      "comment": "#85877B",
+      "keyword": "#B5A4C8",
+      "function": "#A3AE91",
+      "method": "#9BBBAA",
+      "string": "#D0A78F",
+      "number": "#D2AC7D",
+      "constant": "#D28B80",
+      "type": "#9CB8BA",
+      "property": "#C9C6B8",
+      "operator": "#AAA99B",
+      "punctuation": "#AAA99B",
+      "tag": "#A3AE91",
+      "attribute": "#B5A4C8",
+      "regexp": "#D28B80",
+      "escape": "#D2B477"
+    }
+  }
+}

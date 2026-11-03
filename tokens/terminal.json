@@ -1,0 +1,42 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "name": "Kanso Matcha",
+  "terminal": {
+    "morning-matcha": {
+      "black": "#34382F",
+      "red": "#9A514A",
+      "green": "#626D4F",
+      "yellow": "#80642F",
+      "blue": "#4F7075",
+      "magenta": "#79658B",
+      "cyan": "#55756A",
+      "white": "#E8E5DA",
+      "bright-black": "#77796D",
+      "bright-red": "#B87970",
+      "bright-green": "#89977A",
+      "bright-yellow": "#B69A65",
+      "bright-blue": "#819BA0",
+      "bright-magenta": "#9A8AAE",
+      "bright-cyan": "#8BA99B",
+      "bright-white": "#FAF9F4"
+    },
+    "evening-zen": {
+      "black": "#22251F",
+      "red": "#D28B80",
+      "green": "#A3AE91",
+      "yellow": "#D2B477",
+      "blue": "#9CB8BA",
+      "magenta": "#B5A4C8",
+      "cyan": "#9BBBAA",
+      "white": "#C9C6B8",
+      "bright-black": "#85877B",
+      "bright-red": "#E0A096",
+      "bright-green": "#B8C4A5",
+      "bright-yellow": "#E0C58F",
+      "bright-blue": "#B0C8C9",
+      "bright-magenta": "#C6B6D6",
+      "bright-cyan": "#B5CCBE",
+      "bright-white": "#E8E5D9"
+    }
+  }
+}

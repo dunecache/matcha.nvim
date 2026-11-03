@@ -1,0 +1,36 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "name": "Kanso Matcha",
+  "markdown": {
+    "morning-matcha": {
+      "heading": "text-primary",
+      "heading-accent": "accent-strong",
+      "link": "info",
+      "link-active": "accent-strong",
+      "bold": "text-primary",
+      "italic": "text-primary",
+      "quote": "text-secondary",
+      "quote-border": "accent-secondary",
+      "code": "text-primary",
+      "code-bg": "surface-sunken",
+      "hr": "border-subtle",
+      "tag": "accent-strong",
+      "list-marker": "accent-secondary"
+    },
+    "evening-zen": {
+      "heading": "text-primary",
+      "heading-accent": "accent-strong",
+      "link": "info",
+      "link-active": "accent-strong",
+      "bold": "text-primary",
+      "italic": "text-primary",
+      "quote": "text-secondary",
+      "quote-border": "accent-secondary",
+      "code": "text-primary",
+      "code-bg": "surface-sunken",
+      "hr": "border-subtle",
+      "tag": "accent-strong",
+      "list-marker": "accent-secondary"
+    }
+  }
+}

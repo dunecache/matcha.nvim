@@ -1,0 +1,24 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "name": "Kanso Matcha",
+  "mode": "morning-matcha",
+  "color": {
+    "paper-0": { "$value": "#FAF9F4", "$type": "color" },
+    "paper-1": { "$value": "#F3F1E9", "$type": "color" },
+    "paper-2": { "$value": "#E8E5DA", "$type": "color" },
+    "paper-3": { "$value": "#D5D0C2", "$type": "color" },
+    "stone-1": { "$value": "#77796D", "$type": "color" },
+    "stone-2": { "$value": "#686A5F", "$type": "color" },
+    "stone-3": { "$value": "#34382F", "$type": "color" },
+    "matcha-1": { "$value": "#DCE2D1", "$type": "color" },
+    "matcha-2": { "$value": "#AAB49A", "$type": "color" },
+    "matcha-3": { "$value": "#89977A", "$type": "color" },
+    "matcha-4": { "$value": "#626D4F", "$type": "color" },
+    "clay-1": { "$value": "#B68E78", "$type": "color" },
+    "clay-2": { "$value": "#8A6654", "$type": "color" },
+    "terracotta": { "$value": "#9A514A", "$type": "color" },
+    "ochre": { "$value": "#80642F", "$type": "color" },
+    "mist": { "$value": "#4F7075", "$type": "color" },
+    "wisteria": { "$value": "#79658B", "$type": "color" }
+  }
+}

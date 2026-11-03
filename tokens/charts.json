@@ -1,0 +1,24 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "name": "Kanso Matcha",
+  "charts": {
+    "morning-matcha": [
+      "#626D4F",
+      "#4F7075",
+      "#8A6654",
+      "#79658B",
+      "#80642F",
+      "#55756A",
+      "#925F50"
+    ],
+    "evening-zen": [
+      "#A3AE91",
+      "#9CB8BA",
+      "#D0A78F",
+      "#B5A4C8",
+      "#D2B477",
+      "#9BBBAA",
+      "#D28B80"
+    ]
+  }
+}

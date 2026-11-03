@@ -1,0 +1,22 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "name": "Kanso Matcha",
+  "diff": {
+    "morning-matcha": {
+      "added": "#626D4F",
+      "added-bg": "#DCE2D1",
+      "removed": "#9A514A",
+      "removed-bg": "#EAD8D2",
+      "changed": "#80642F",
+      "changed-bg": "#EEE5D0"
+    },
+    "evening-zen": {
+      "added": "#A3AE91",
+      "added-bg": "#41483A",
+      "removed": "#D28B80",
+      "removed-bg": "#49332F",
+      "changed": "#D2B477",
+      "changed-bg": "#49402F"
+    }
+  }
+}

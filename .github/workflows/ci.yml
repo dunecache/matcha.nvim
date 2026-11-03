@@ -1,0 +1,49 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Neovim
+        uses: rhysd/action-setup-vim@v1
+        with:
+          neovim: true
+          version: stable
+
+      - name: Build palette (fail on diff)
+        run: |
+          cp lua/matcha/palette/morning.lua /tmp/morning.lua
+          cp lua/matcha/palette/evening.lua /tmp/evening.lua
+          nvim -l scripts/build-palette.lua
+          diff -u /tmp/morning.lua lua/matcha/palette/morning.lua
+          diff -u /tmp/evening.lua lua/matcha/palette/evening.lua
+
+      - name: Contrast
+        run: nvim -l scripts/check-contrast.lua
+
+      - name: Provenance
+        run: nvim -l scripts/check-provenance.lua
+
+      - name: Tests
+        run: nvim --headless -l tests/run.lua
+
+      - name: Previews
+        run: nvim -l scripts/gen-preview.lua
+
+  nightly:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Neovim (nightly)
+        uses: rhysd/action-setup-vim@v1
+        with:
+          neovim: true
+          version: nightly
+      - name: Tests
+        run: nvim --headless -l tests/run.lua

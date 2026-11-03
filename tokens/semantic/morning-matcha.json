@@ -1,0 +1,26 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "name": "Kanso Matcha",
+  "mode": "morning-matcha",
+  "color": {
+    "background": { "$value": "#F3F1E9", "$type": "color" },
+    "surface": { "$value": "#E8E5DA", "$type": "color" },
+    "surface-elevated": { "$value": "#FAF9F4", "$type": "color" },
+    "surface-sunken": { "$value": "#E2DED2", "$type": "color" },
+    "surface-accent": { "$value": "#DCE2D1", "$type": "color" },
+    "text-primary": { "$value": "#34382F", "$type": "color" },
+    "text-secondary": { "$value": "#616359", "$type": "color" },
+    "text-muted": { "$value": "#616359", "$type": "color" },
+    "border-subtle": { "$value": "#D5D0C2", "$type": "color" },
+    "border-strong": { "$value": "#827E74", "$type": "color" },
+    "accent-primary": { "$value": "#89977A", "$type": "color" },
+    "accent-strong": { "$value": "#5C664A", "$type": "color" },
+    "accent-secondary": { "$value": "#AAB49A", "$type": "color" },
+    "selection": { "$value": "#DCE2D1", "$type": "color" },
+    "focus": { "$value": "#626D4F", "$type": "color" },
+    "success": { "$value": "#5C664A", "$type": "color" },
+    "warning": { "$value": "#795E2C", "$type": "color" },
+    "danger": { "$value": "#944E47", "$type": "color" },
+    "info": { "$value": "#48676B", "$type": "color" }
+  }
+}
